@@ -13,3 +13,37 @@
 // Si tiene el dinero y la INE, pero no tiene la edad, el programa debe decir: "Tienes el dinero y la INE, pero no tienes la edad para entrar.".
 // Si tiene la edad, pero no tiene ni la INE ni el dinero, el programa debe decir: "Tienes la edad, pero necesitas el dinero y la INE para entrar.".
 // Si no cumple con ninguna de las condiciones, el programa debe decir: "No puedes entrar al bar. No cumples ninguna de las condiciones.".
+
+let age = 17;
+let budget = 99;
+let INE = false;
+
+if (age > 18 && budget > 100 && INE) {
+  console.log("Puedes entrar al bar y disfruta!");
+}
+else if (age > 18 && budget > 100 && !INE) {
+  console.log("Tienes la edad y el dinero, pero sin INE no puedes entrar");
+}
+else if (age > 18 && budget < 100 && INE) {
+  console.log(
+    "Tienes la edad y la INE pero neceistas al menos $100 para entrar"
+  );
+}
+else if (age < 18 && budget > 100 && INE) {
+  console.log("Tienes el dinero y la INE, pero no tienes la edad para entrar");
+}
+else if (age > 18 && budget < 100 && !INE) {
+  console.log(
+    "Tienes la edad pero necesitas el dinero y la INE para poder entrar"
+  );
+}
+else if (age<18 && budget<100 && INE) {
+    console.log(
+        "Tienes el INE pero no tienes la edad y el dinero para entrar"
+    );
+}
+else  {
+  console.log(
+    "No puedes entrar al bar. No cumples ninguna de las condiciones"
+  );
+}

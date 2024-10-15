@@ -18,7 +18,7 @@ let age = 17;
 let budget = 99;
 let INE = false;
 
-if (age > 18 && budget > 100 && INE) {
+if (age > 18 && budget > 100 && INE) { //Setencia que se puede ejectuar o no dependiendo de una condicion
   console.log("Puedes entrar al bar y disfruta!");
 }
 else if (age > 18 && budget > 100 && !INE) {

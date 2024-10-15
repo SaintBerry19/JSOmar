@@ -15,7 +15,7 @@
 // Para la comparacion entre un tipo de dato no booleano (3) con uno booleano (false) el dato no booleano (que no sea null)
 // es true
 
-// Operadores logicos <, >, ===, !==, ==, !=, <=, >=
+// Operadores logicos <, >, === Identico, !== No es igual, Diferente, == Parecido, != Diferente al parecido, <=, >=
 
 // console.log(3 == "3");
 // console.log(3 === "3");

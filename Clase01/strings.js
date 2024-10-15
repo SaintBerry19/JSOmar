@@ -17,5 +17,5 @@ console.log(cadenaDeTexto)
 // Puedes operar con cadenas de texto
 let cadenaDeTexto2 = "Muchisimo gusto!"
 let saludo =  cadenaDeTexto + ", " + cadenaDeTexto2
-console.log(saludo)
+console.log(3)
 
